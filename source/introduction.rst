@@ -1,10 +1,10 @@
 Introduction
 ============
 .. This section should introduce the absolute basics of the Omicron Project,
-Containing
-    -   Audience
-    -   Scope
-    -   Acknowledgements
+    Containing
+        -   Audience
+        -   Scope
+        -   Acknowledgements
 
 Hello! Welcome to the Omicron Project. Encompassed in this project are (at the
 time of writing) the Omicron Server, the Omicron Client, and this Omicron Dev
@@ -87,7 +87,7 @@ The Omicron Project wishes to thank
 .. _React: https://facebook.github.io/react/
 .. _Istanbul: https://gotwarlost.github.io/istanbul/
 
-
+.. use case:
 The Use Case
 ------------
 
@@ -119,3 +119,42 @@ The use case for the minimum viable product is
     - User invites collaborators to projects that the user opened
     - User pushes files to the project
 
+License
+-------
+
+The Omicron Server, Client, and Dev Guide are licensed under the GNU General
+Public License v3. A copy of the license can be found in the ``LICENSE`` file
+in this project's root directory, as well as on the `GNU Project website`_.
+
+.. _GNU Project website: https://www.gnu.org/licenses/gpl-3.0.en.html
+
+
+Project Breakdown
+-----------------
+
+In order to break down the gargantuan use case outlined in the :ref:`use case`,
+the Omicron project is broken into three parts
+
+    -   The **Omicron Server** is an HTTP REST API written in Python, which
+        takes in data from a relational database and presents a dynamic
+        JSON-based data model. Other programs interact with **Omicron Server**
+        through HTTP requests that perform transactional CRUD (Create,
+        Update, Delete) operations on resources.
+
+    -   The **Omicron Client** is a User Interface (UI) written in Javascript
+        and running on the user's browser. React JS was selected as the
+        front-end framework for the project. Ideally, the UI will be a
+        single-page application (SPA). The UI interacts with the API, and
+        transforms the data model presented by the API into meaningful
+        information for the user
+
+    -   The **Omicron Dev Guide**, what you are reading now, is a lump of
+        documentation meant to introduce the project to new developers, and to
+        familiarize users with some of the decisions made for this project.
+
+Hosted versions of the documentation for the `Omicron Server`_ and
+`Omicron Dev Guide`_ are available on `readthedocs.org`_.
+
+.. _Omicron Server: omicron-server.readthedocs.org
+.. _Omicron Dev Guide: omicron-dev-guide.readthedocs.org
+.. _readthedocs.org: readthedocs.org
