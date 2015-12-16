@@ -3,7 +3,7 @@ Readme
 
 This document provides an overview into the Omicron Project, a set of programs
 designed to manage and automate research in experimental settings. A hosted
-version of this documentation can be found `here`_
+version of this documentation can be found `here`_.
 
 
 Installation

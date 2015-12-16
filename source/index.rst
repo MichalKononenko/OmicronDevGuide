@@ -9,10 +9,9 @@ The Omicron Project: A Developer's Guide
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    introduction
-   components
 
 
 Indices and tables
