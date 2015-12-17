@@ -1,10 +1,5 @@
 Introduction
 ============
-.. This section should introduce the absolute basics of the Omicron Project,
-    Containing
-        -   Audience
-        -   Scope
-        -   Acknowledgements
 
 Hello! Welcome to the Omicron Project. Encompassed in this project are (at the
 time of writing) the Omicron Server, the Omicron Client, and this Omicron Dev
@@ -87,7 +82,6 @@ The Omicron Project wishes to thank
 .. _React: https://facebook.github.io/react/
 .. _Istanbul: https://gotwarlost.github.io/istanbul/
 
-.. use case:
 The Use Case
 ------------
 
@@ -132,7 +126,7 @@ in this project's root directory, as well as on the `GNU Project website`_.
 Project Breakdown
 -----------------
 
-In order to break down the gargantuan use case outlined in the :ref:`use case`,
+In order to break down the gargantuan use case outlined in the use case,
 the Omicron project is broken into three parts
 
     -   The **Omicron Server** is an HTTP REST API written in Python, which

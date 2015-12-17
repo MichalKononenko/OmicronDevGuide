@@ -12,7 +12,9 @@ Contents:
    :maxdepth: 3
 
    introduction
+   core_concepts
 
+.. include:: ../readme.rst
 
 Indices and tables
 ==================

@@ -13,7 +13,7 @@ Clone this repository by running
 
 .. code-block:: bash
 
-   $ git clone
+   $ git clone https://github.com/MichalKononenko/OmicronDevGuide.git
 
 ``cd`` into your cloned repo and run
 
